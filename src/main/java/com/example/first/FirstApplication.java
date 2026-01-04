@@ -13,6 +13,7 @@ import org.springframework.boot.jdbc.autoconfigure.DataSourceAutoConfiguration;
 public class FirstApplication {
 
 	public static void main(String[] args) {
+		System.out.println("this is initial class");
 		SpringApplication.run(FirstApplication.class, args);
 	}
 

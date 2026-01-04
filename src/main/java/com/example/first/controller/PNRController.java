@@ -11,6 +11,7 @@ public class PNRController {
 
     @GetMapping("/msg")
     public String helloJava(){
+        System.out.println("This is first task");
         return "Hello Harshal";
     }
 }
